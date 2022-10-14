@@ -1,18 +1,18 @@
 {
-    "source_db": {
-        "flavor": "mysql",
-        "host": "localhost",
-        "port": 3306,
-        "user": "root",
-        "password": "root",
-        "database": "test"
-    },
-    "target_db": {
-        "flavor": "mysql",
-        "host": "localhost",
-        "port": 3306,
-        "user": "root",
-        "password": "root",
-        "database": "test"
-    }
+  "source_db": {
+    "flavor": "mariadb",
+    "host": "192.168.8.100",
+    "port": 3306,
+    "user": "source_user",
+    "password": "1234",
+    "database": "test_source"
+  },
+  "target_db": {
+    "flavor": "mariadb",
+    "host": "192.168.8.100",
+    "port": 3306,
+    "user": "destination_user",
+    "password": "1234",
+    "database": "test_destination"
+  }
 }
